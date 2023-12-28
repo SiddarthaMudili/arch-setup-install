@@ -12,31 +12,12 @@ clear
 yay -S vscodium-bin brave-bin google-chrome
 clear
 
-
 #Basic installations using pacman
 sudo pacman -S xorg xorg-xinit
 clear
 sudo pacman -S neovim libreoffice thunar gparted
 clear
 sudo pacman -S nitrogen picom light pulseaudio pavucontrol
-clear
-
-#MTPFS setup
-yay -S mtpfs
-mkdir Downloads
-cd Downloads
-git clone https://aur.archlinux.org/jmtpfs.git
-cd jmtpfs
-makepkg -s
-
-ls -al
-echo "Enter the complete name of the pkg.tar.zst file from the above list: "
-read file_name
-sudo pacman -U "$file_name"
-clear
-
-sudo pacman -Sy gvfs-mtp gvfs-gphoto2
-cd
 clear
 
 #basefiles setup
@@ -75,9 +56,30 @@ sudo make clean install
 cd
 clear
 
+startx
+
 #neovim-setup installation
 git clone https://github.com/jusan00b/neovim-setup.git .config/nvim
 clear
+
+#MTPFS setup
+yay -S mtpfs
+mkdir Downloads
+cd Downloads
+git clone https://aur.archlinux.org/jmtpfs.git
+cd jmtpfs
+makepkg -si
+
+ls -al
+echo "Enter the complete name of the pkg.tar.zst file from the above list: "
+read file_name
+sudo pacman -U "$file_name"
+clear
+
+sudo pacman -Sy gvfs-mtp gvfs-gphoto2
+cd
+clear
+
 
 reboot
 
