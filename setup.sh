@@ -67,13 +67,11 @@ cd Downloads
 git clone https://aur.archlinux.org/jmtpfs.git
 cd jmtpfs
 makepkg -si
-
 ls -al
 echo "Enter the complete name of the pkg.tar.zst file from the above list: "
 read file_name
 sudo pacman -U "$file_name"
 clear
-
 sudo pacman -Sy gvfs-mtp gvfs-gphoto2
 cd
 clear
