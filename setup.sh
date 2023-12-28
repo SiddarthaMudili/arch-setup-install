@@ -1,6 +1,10 @@
 sudo pacman -Syu
 clear
 
+#Xorg installation and setup
+sudo pacman -S xorg xorg-xinit xorg-server
+clear
+
 #Yay installation and setup
 git clone https://aur.archlinux.org/yay.git
 cd yay
@@ -13,9 +17,7 @@ yay -S vscodium-bin brave-bin google-chrome
 clear
 
 #Basic installations using pacman
-sudo pacman -S xorg xorg-xinit
-clear
-sudo pacman -S neovim libreoffice thunar gparted
+sudo pacman -S neovim libreoffice thunar gparted neofetch
 clear
 sudo pacman -S nitrogen picom light pulseaudio pavucontrol
 clear
@@ -25,7 +27,7 @@ git clone https://github.com/jusan00b/Arch-basefiles.git setup/basefiles
 cp setup/basefiles/.xinitrc .xinitrc
 cp setup/basefiles/.xinitrc .bash_profile
 cp setup/basefiles/.xinitrc .bashrc
-cp setup/basefiles/anonymouspro /usr/share/fonts/
+sudo cp -r setup/basefiles/anonymouspro /usr/share/fonts/
 clear
 
 #dwm installation and setup
