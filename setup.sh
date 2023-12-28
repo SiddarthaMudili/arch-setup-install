@@ -56,8 +56,6 @@ sudo make clean install
 cd
 clear
 
-startx
-
 #neovim-setup installation
 git clone https://github.com/jusan00b/neovim-setup.git .config/nvim
 clear
