@@ -25,7 +25,7 @@ git clone https://github.com/jusan00b/Arch-basefiles.git setup/basefiles
 cp setup/basefiles/.xinitrc .xinitrc
 cp setup/basefiles/.xinitrc .bash_profile
 cp setup/basefiles/.xinitrc .bashrc
-cp setup/basefiles/anonymouspro /usr/share/fonts/anonymouspro
+cp setup/basefiles/anonymouspro /usr/share/fonts/
 clear
 
 #dwm installation and setup
