@@ -19,7 +19,11 @@ clear
 #Basic installations using pacman
 sudo pacman -S neovim libreoffice thunar gparted neofetch
 clear
-sudo pacman -S nitrogen picom light pulseaudio pavucontrol
+sudo pacman -S nitrogen picom
+clear
+sudo pacman -S light amdgpu-utils
+clear
+sudo pacman -S pulseaudio pavucontrol
 clear
 
 #basefiles setup
