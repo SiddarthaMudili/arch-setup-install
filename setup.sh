@@ -78,3 +78,4 @@ sudo pacman -Sy gvfs-mtp gvfs-gphoto2
 cd
 clear
 
+reboot
