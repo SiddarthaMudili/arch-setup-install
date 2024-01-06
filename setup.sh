@@ -13,15 +13,13 @@ cd
 clear
 
 #Basic installations using yay
-yay -S vscodium-bin brave-bin google-chrome
+yay -S vscodium-bin brave-bin google-chrome light
 clear
 
 #Basic installations using pacman
 sudo pacman -S neovim libreoffice thunar gparted neofetch
 clear
 sudo pacman -S nitrogen picom
-clear
-sudo pacman -S light amdgpu-utils
 clear
 sudo pacman -S pulseaudio pavucontrol pamixer
 clear
@@ -81,5 +79,12 @@ clear
 sudo pacman -Sy gvfs-mtp gvfs-gphoto2
 cd
 clear
+
+#light setup
+sudo pacman -S acpid
+sudo systemctl enable acpid
+sudo systemctl start acpid
+sudo usermod -aG video $(whoami)
+journalctl -xe | grep dwm
 
 reboot
