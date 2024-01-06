@@ -23,7 +23,7 @@ sudo pacman -S nitrogen picom
 clear
 sudo pacman -S light amdgpu-utils
 clear
-sudo pacman -S pulseaudio pavucontrol
+sudo pacman -S pulseaudio pavucontrol pamixer
 clear
 
 #basefiles setup
