@@ -25,7 +25,7 @@ sudo pacman -S pulseaudio pavucontrol pamixer
 clear
 
 #basefiles setup
-git clone https://github.com/jusan00b/Arch-basefiles.git setup/basefiles
+git clone https://github.com/jusan00b/arch-files.git setup/files
 cp setup/basefiles/.xinitrc .xinitrc
 cp setup/basefiles/.bash_profile .bash_profile
 cp setup/basefiles/.bashrc .bashrc
@@ -33,28 +33,28 @@ sudo cp -r setup/basefiles/anonymouspro /usr/share/fonts/
 clear
 
 #dwm installation and setup
-git clone https://github.com/jusan00b/Arch-DWM.git setup/dwm
+git clone https://github.com/jusan00b/dwm-setup.git setup/dwm
 cd setup/dwm
 sudo make clean install
 cd
 clear
 
 #dmenu installation and setup
-git clone https://github.com/jusan00b/Arch-dmenu.git setup/dmenu
+git clone https://github.com/jusan00b/dmenu-setup.git setup/dmenu
 cd setup/dmenu
 sudo make clean install
 cd
 clear
 
 #st installation and setup
-git clone https://github.com/jusan00b/Arch-st.git setup/st
+git clone https://github.com/jusan00b/st-setup.git setup/st
 cd setup/st
 sudo make clean install
 cd
 clear
 
 #slstatus installation and setup
-git clone https://github.com/jusan00b/Arch-slstatus.git setup/slstatus
+git clone https://github.com/jusan00b/slstatus-setup.git setup/slstatus
 cd setup/slstatus
 sudo make clean install
 cd
