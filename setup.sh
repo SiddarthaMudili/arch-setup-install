@@ -26,10 +26,10 @@ clear
 
 #basefiles setup
 git clone https://github.com/jusan00b/arch-files.git setup/files
-cp setup/basefiles/.xinitrc .xinitrc
-cp setup/basefiles/.bash_profile .bash_profile
-cp setup/basefiles/.bashrc .bashrc
-sudo cp -r setup/basefiles/anonymouspro /usr/share/fonts/
+cp setup/files/.xinitrc .xinitrc
+cp setup/files/.bash_profile .bash_profile
+cp setup/files/.bashrc .bashrc
+sudo cp -r setup/files/anonymouspro /usr/share/fonts/
 clear
 
 #dwm installation and setup
