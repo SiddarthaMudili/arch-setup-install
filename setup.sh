@@ -13,13 +13,13 @@ cd
 clear
 
 #Basic installations using yay
-yay -S vscodium-bin brave-bin google-chrome light xclip xsel wget
+yay -S vscodium-bin brave-bin google-chrome light
 clear
 
 #Basic installations using pacman
 sudo pacman -S neovim libreoffice firefox thunar gparted neofetch
 clear
-sudo pacman -S nitrogen picom
+sudo pacman -S nitrogen picom unzip npm wget xclip xsel
 clear
 sudo pacman -S pulseaudio pavucontrol pamixer
 clear
