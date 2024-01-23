@@ -13,7 +13,7 @@ cd
 clear
 
 #Basic installations using yay
-yay -S vscodium-bin brave-bin google-chrome light
+yay -S vscodium-bin brave-bin google-chrome light xclip xsel wget
 clear
 
 #Basic installations using pacman
