@@ -19,7 +19,7 @@ clear
 #Basic installations using pacman
 sudo pacman -S neovim libreoffice obsidian firefox thunar gparted neofetch
 clear
-sudo pacman -S nitrogen picom unzip npm wget xclip xsel
+sudo pacman -S nitrogen picom slock unzip npm wget xclip xsel
 clear
 sudo pacman -S pulseaudio pavucontrol pamixer
 clear
@@ -29,6 +29,8 @@ git clone https://github.com/jusan00b/arch-files.git setup/files
 cp setup/files/.xinitrc .xinitrc
 cp setup/files/.bash_profile .bash_profile
 cp setup/files/.bashrc .bashrc
+cp setup/files/.zshrc .zshrc
+cp setup/files/.zprofile .zprofile
 sudo cp -r setup/files/anonymouspro /usr/share/fonts/
 clear
 
