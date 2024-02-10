@@ -61,7 +61,7 @@ cd
 clear
 
 #neovim-setup installation
-git clone https://github.com/jusan00b/neovim-setup.git .config/nvim
+git clone https://github.com/jusan00b/kickstart.nvim.git .config/nvim
 clear
 
 #MTPFS setup
