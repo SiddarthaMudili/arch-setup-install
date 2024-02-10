@@ -13,13 +13,13 @@ cd
 clear
 
 #Basic installations using yay
-yay -S vscodium-bin brave-bin google-chrome light
+yay -S brave-bin google-chrome light
 clear
 
 #Basic installations using pacman
-sudo pacman -S neovim libreoffice obsidian firefox thunar gparted neofetch
+sudo pacman -S zsh neovim vscode libreoffice obsidian firefox thunar gparted
 clear
-sudo pacman -S nitrogen picom slock unzip npm wget xclip xsel
+sudo pacman -S nitrogen picom slock neofetch unzip npm wget xclip xsel
 clear
 sudo pacman -S pulseaudio pavucontrol pamixer
 clear
@@ -66,7 +66,7 @@ clear
 git clone https://github.com/jusan00b/kickstart.nvim.git .config/nvim
 clear
 
-#MTPFS setup
+#MTPFS setup for mounting android device
 yay -S mtpfs
 mkdir Downloads
 cd Downloads
