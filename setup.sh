@@ -17,7 +17,7 @@ yay -S brave-bin google-chrome light
 clear
 
 #Basic installations using pacman
-sudo pacman -S zsh neovim vscode libreoffice obsidian firefox thunar gparted
+sudo pacman -S zsh neovim libreoffice obsidian firefox thunar gparted
 clear
 sudo pacman -S nitrogen picom slock neofetch unzip npm wget xclip xsel
 clear
