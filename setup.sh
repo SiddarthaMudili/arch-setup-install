@@ -31,6 +31,7 @@ cp setup/files/.bash_profile .bash_profile
 cp setup/files/.bashrc .bashrc
 cp setup/files/.zshrc .zshrc
 cp setup/files/.zprofile .zprofile
+cp setup/files/.p10k.zsh .p10k.zsh
 sudo cp -r setup/files/anonymouspro /usr/share/fonts/
 clear
 
