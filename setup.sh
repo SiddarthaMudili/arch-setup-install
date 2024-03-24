@@ -13,7 +13,7 @@ cd
 clear
 
 #Basic installations using yay
-yay -S brave-bin google-chrome light
+yay -S brave-bin google-chrome light zsh-syntax-highlighting
 clear
 
 #Basic installations using pacman
